@@ -3,7 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-![image](/img/lauraprof.jpg #profile)
+
+<img src="/img/lauraprof.jpg" alt="profile photo" />
 
 Hello!
 
