@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Contact Me
+title: Hello
 permalink: /contact-me/
 ---
-![image](/img/hello.jpg #hello)
+<img src="/img/hello.jpg" class="hello" alt="hello logo">
+
 
 If you'd like to get in touch you can reach me via:
 

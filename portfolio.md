@@ -4,6 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-![image](/img/construction.png #construction)
+<img src="/img/construction.png" class="construction" alt="under construction sign">
+
 
 My projects will be displayed here. Stay tuned!

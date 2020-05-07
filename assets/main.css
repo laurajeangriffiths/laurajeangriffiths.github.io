@@ -1,6 +1,6 @@
-img[src*="#profile"] {width: 160px; height: 160px; border-radius: 50%;}
-img[src*="#hello"] {width: 160px; height: 160px; border-radius: 50%;}
-img[src*="#construction"] {width: 200px; height: 200px; border-radius: 50%; border: 5px solid yellow; }
+.profile {width: 160px; height: 160px; border-radius: 50%;}
+.hello {width: 160px; height: 160px; border-radius: 50%;}
+.construction {width: 200px; height: 200px; border-radius: 50%; border: 5px solid yellow; }
 
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }

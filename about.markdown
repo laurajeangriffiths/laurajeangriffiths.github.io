@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/img/lauraprof.jpg" alt="profile photo" />
+<img src="/img/lauraprof.jpg" class="profile" alt="profile photo">
 
 Hello!
 
