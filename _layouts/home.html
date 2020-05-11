@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="jumbotron text-center">
+  <h1 class="display-4">Hello, nice to meet you!</h1>
+  <p class="lead">Welcome to my portfolio and blog - a place to document my learning progression in software testing. </p>
+  <hr class="my-4">
+  <p>If you would like to see my work, please do!</p>
+  <a class="btn btn-outline-dark btn-lg" href=/portfolio/ role="button">Portfolio</a>
+</div>
+
+<div class="blog">
+  <h2>Latest Blog Posts</h2>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<hr>
