@@ -5,6 +5,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #f7f2f7;
 }
 
 h1, h2 {
@@ -18,25 +19,44 @@ h1, h2 {
   padding-bottom: 25px;
 }
 
+.bio {
+  max-width: 65%;
+  text-align: center;
+}
+
 div.footer {
   padding-top: 25px;
+  background-color: #e3e3e3;
 }
 
 .jumbotron{
   background-color: #f7f2f7;
+  margin-bottom: 0;
+}
+
+.my-4 {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .navbar-custom{
-  background-color: #f9f2fa;
+  background-color: #f7f2f7;
 }
 
 .display-4, .navbar-brand {
   font-family: 'Comfortaa', cursive;
+  color: #593956;
   font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #593956;
 }
 
 .blog {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .blog > ul {
@@ -53,12 +73,16 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
   margin-top: 20px;
 }
 
+.credit {
+  font-size: 12px;
+}
+
 /** Images */
 img { max-width: 100%; margin: auto; }
 
-.profile {width: 160px; height: 160px; border-radius: 50%;}
+.profile {width: 200px; height: 200px; border-radius: 50%;}
 
-.hello {width: 160px; height: 160px; border-radius: 50%;}
+.hello {width: 200px; height: 200px; border-radius: 50%;}
 
 .construction {
   display: block;
@@ -74,11 +98,15 @@ img { max-width: 100%; margin: auto; }
 h1, h2, h3, h4, h5, h6 { font-weight: 200; }
 
 /** Links */
-a { color: #2a7ae2; text-decoration: none; }
+a, .list-unstyled { color: #615c60; text-decoration: none; }
 
 a:visited { color: #1756a9; }
 
 a:hover { color: #111; text-decoration: underline; }
+
+.list-unstyled:visited { color: #1756a9; }
+
+.list-unstyled:hover { color: #111; text-decoration: underline; }
 
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
@@ -95,7 +123,7 @@ a:hover { color: #111; text-decoration: underline; }
 
 /* Footer */
 .footer {
-  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
