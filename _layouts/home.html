@@ -15,8 +15,7 @@ layout: default
 
 <div class="blog">
   <h2>Latest Blog Posts</h2>
-
-  <ul>
+  <ul id="blog-post">
     {% for post in site.posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
