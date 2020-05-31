@@ -64,10 +64,14 @@ div.footer {
 }
 
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0; padding: 0;
+}
 
 /** Set `margin-bottom` to maintain vertical rhythm */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 15px;
+}
 
 .page-title {
   margin-top: 20px;
@@ -78,16 +82,23 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 }
 
 /** Images */
-img { max-width: 100%; margin: auto; }
+img {
+  max-width: 100%; margin: auto;
+}
 
-.profile {width: 200px; height: 200px; border-radius: 50%; border-radius: 50%;
-border: 3px solid #128175}
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #128175;
+}
 
 .hello {width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      border-radius: 50%;
-      border: 3px solid #128175;
+  height: 200px;
+  border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #128175;
 }
 
 .construction {
@@ -101,18 +112,25 @@ border: 3px solid #128175}
 }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 200; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
 
 /** Links */
 a {
   color: #0c6f65;
 }
 
-#blog-post a { color: #111;}
+#blog-post a {
+  color: #111;
+}
 
 /* a:visited { color: #0c6f65; } */
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
 
 #foot-col a {
   color: #0c6f65;
