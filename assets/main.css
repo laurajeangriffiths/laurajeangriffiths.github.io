@@ -100,7 +100,7 @@ img {
   max-width: 100%; margin: auto;
 }
 
-.profile {
+.hello, .profile, .blog-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -108,11 +108,15 @@ img {
   border: 3px solid #128175;
 }
 
-.hello {width: 200px;
+.blog-welcome {
+  display: block;
+  width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border-radius: 50%;
-  border: 3px solid #128175;
+}
+
+.blog-image {
+  display: block;
+  margin-bottom: 25px;
 }
 
 .construction {
