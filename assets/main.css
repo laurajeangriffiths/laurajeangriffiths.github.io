@@ -140,6 +140,10 @@ img {
   margin-bottom: 25px;
 }
 
+ul, ol {
+  padding: 0px 25px;
+}
+
 .construction {
   display: block;
   margin-left: auto;
@@ -148,16 +152,6 @@ img {
   height: 200px;
   border-radius: 50%;
   border: 5px solid yellow;
-}
-
-.sketchnotes-img {
-  height: 70%;
-  width: 70%;
-  float: left;
-}
-
-.sketchnotes-text {
-  padding-left: 20px;
 }
 
 /** Headings */
@@ -207,22 +201,81 @@ a:hover {
 }
 
 .quality-text {
-  float: left;
+  /* float: left; */
   max-width: 50%;
+  padding-right: 15px;
 }
 
 .quality-table {
-  float: left;
+  /* float: left; */
   max-width: 50%;
+  /* margin-top: 30px; */
+  /* max-height: 10%; */
+}
+
+.container-3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.sketchnotes-text {
+  max-width: 40%;
+  padding-right: 15px;
+}
+
+.sketchnotes-img {
+max-width: 60%;
+max-height: 60%;
 }
 
 .project-info {
-  float: left;
+  /* float: left; */
   max-width: 40%;
+  margin-left: 62%;
+  margin-top: -180px;
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.previous-post {
+  order: 1;
 }
 
 .portfolio-return {
   text-align: center;
+  order: 2;
+}
+
+.next-post {
+  /* margin-left: 70%; */
+  order: 3;
+}
+
+.container-2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.quality-1 {
+  max-width: 50%;
+}
+
+.quality-characteristics {
+  max-width: 50%;
+}
+
+.risk-table {
+  max-width: 50%;
+}
+
+.risks-list {
+  max-width: 50%;
 }
 
 table, th, td {
