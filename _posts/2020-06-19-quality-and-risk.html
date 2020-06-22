@@ -6,9 +6,16 @@ categories: portfolio
 ---
 <div class="container-2">
   <div class="quality-1">
-    <p>My main project in exploratroy testing began with assessing quality and risk. I was tasked with exploratory testing the Restful-Booker API.
-      With 3 key quality characteristics, and the user stories, I began by conducting a risk analysis to identify possible risks and areas for exploration.
+    <p>My main project in exploratory testing was to conduct testing of the Restful Booker API.
+       I began this project with a risk analysis to identify possible risks and areas for deeper exploration.
+       I was provided with 3 key quality characteristics, as well as the user stories, which I utilised to prompt my
+       thinking and assessment of risk.</p>
+
+    <p>I began by taking the 3 quality characteristics, and considering risks around these.
       After considering possible risks, I used these to draw up charters ready for testing.</p>
+
+    <p>Following on this, I referred to the user stories as a prompt to identify areas for exploration.
+      These findings became the basis of my testing charters.</p>
   </div>
 
 <div class="quality-characteristics">
@@ -40,23 +47,27 @@ categories: portfolio
   </table>
 </div>
 
-<ul class="risks-list">
-  <li>Creating a booking</li>
-    <ul>
-      <li>Is authentication required?</li>
-      <li>Formats</li>
-        <ul>
-          <li>Name - min. and max. character limit?</li>
-          <li>Date - leap years, fake dates </li>
-        </ul>
-    </ul>
-  <li>Updating a booking</li>
-    <ul>
-      <li>Is authentication required?</li>
-      <li>Are updates saved?</li>
-      <li>Are formatting rules the same as for creating a booking?</li>
-    </ul>
-</ul>
+<div class="risks-list">
+  <ul>
+    <li>Creating a booking</li>
+      <ul>
+        <li>Is authentication required?</li>
+        <li>Formats</li>
+          <ul>
+            <li>Name - min. and max. character limit?</li>
+            <li>Date - leap years, fake dates </li>
+          </ul>
+      </ul>
+    <li>Updating a booking</li>
+      <ul>
+        <li>Is authentication required?</li>
+        <li>Are updates saved?</li>
+        <li>Are formatting rules the same as for creating a booking?</li>
+      </ul>
+  </ul>
+  <p class="risk-text">These considerations were then used to create charters for exploratory testing of the API. The resulting mindmap can be found on the next page.</p>
+</div>
+
 
   <table class="risk-table">
   <th colspan="2">Risk Analysis of Restful Booker API</th>
@@ -69,7 +80,6 @@ categories: portfolio
       <td rowspan="1">
         <ul>
           <li>Is correct data returned?</li>
-          <li></li>
         </ul>
       </td>
     </tr>
@@ -92,12 +102,6 @@ categories: portfolio
       </td>
     </tr>
   </table>
-
-<!-- <p class="quality-risk2">Referring to the requirements in the user stories also served as a heuristic to prompt ideas for exploration:</p> -->
-
-
-<p class="quality-risk3">These considerations were then used to create charters for exploratory testing of the API. The resulting mindmap can be found on the next page.</p>
-
 
   <table class="project-info1">
     <th colspan="2">Project information</th>

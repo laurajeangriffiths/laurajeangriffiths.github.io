@@ -4,12 +4,48 @@ title: Bug Reports
 date:   2020-05-04 12:42:47 +0100
 categories: portfolio
 ---
+<div class="container-4">
+  <p class="br1">After conducting various testing charters and creating a visual mindmap, I logged the bugs found in reports.
+    These are detailed reports allowing for another tester or developer to follow the steps to reproduce the bug and implement fixes.
+    I have included a couple of examples from my testing:
+  </p>
 
-<h3></h3>
+  <img src="/img/blog/Bug-Report.jpg" class="bug-report1" alt="Image of a bug report">
 
-<p>Following on from <a href="">this post</a>, where I document the exploratory testing process of an API, in this post I will share my bug reports.</p>
+  <p class="br2">The report documents a defect around formatting. When creating a booking via a POST request, the name fields cannot
+    be left empty, however, when updating a booking via a PATCH request, the name fields can be deleted and left blank. This poses a risk
+    to the consistency quality characteristic, as the two methods each have different formatting rules, could be problematic for the
+    user when trying to retrieve data.
+  </p>
 
-images of 2/3 charters and brief explanation.
+  <img src="/img/blog/Bug-Report2.jpg" class="bug-report2" alt="Image of a bug report">
+
+  <p class="br3">This report gives information on a critical defect, as this particular bug explicitly prohibits one of the functions
+    stated in the user stories - the ability to filter bookings by dates.
+    Providing the exact dates of a stored booking returns either incorrect, or no results at all.
+    When I discovered this issue during exploratory testing, I deepened my testing to try to discover the behaviour of the API when
+    provided only a check in date, only a check out date, or both a check in and check out date. I found that searching via a check
+    in date returned bookings with check in dates greater than, but not including the date specified. Searching via check out date
+    returned bookings with check out dates equal to, and prior to the date specified.
+  </p>
+</div>
+
+<table class="project-info">
+    <th colspan="2">Project information</th>
+    <tr>
+      <th>Date</th>
+      <td>May 2020</td>
+    </tr>
+    <tr>
+      <th>Course</th>
+      <td rowspan="2">
+        <ul>
+          <li><a href="https://www.ministryoftesting.com/essentials">www.ministryoftesting.com Essentials</a></li>
+          <li><a href="https://www.ministryoftesting.com/dojo/series/introduction-to-http">www.ministryoftesting.com Intro to HTTP</a></li>
+        </ul>
+      </td>
+    </tr>
+</table>
 
 <div class="page-nav">
   <div class="previous-post">

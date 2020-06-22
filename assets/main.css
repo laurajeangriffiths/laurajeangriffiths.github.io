@@ -233,7 +233,7 @@ max-height: 60%;
   /* float: left; */
   max-width: 40%;
   margin-left: 62%;
-  margin-top: -180px;
+  margin-top: -140px;
 }
 
 .page-nav {
@@ -263,18 +263,70 @@ max-height: 60%;
 }
 
 .quality-1 {
+  order: 1;
   max-width: 50%;
 }
 
 .quality-characteristics {
+  order: 2;
   max-width: 50%;
 }
 
 .risk-table {
+  order: 3;
   max-width: 50%;
 }
 
 .risks-list {
+  order: 4;
+  max-width: 50%;
+}
+
+.project-info1 {
+  order: 5;
+}
+
+.container-3 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sketchnotes-text {
+  order: 1;
+}
+
+.sketchnotes-img {
+  order: 2;
+}
+
+.container-4 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.br1 {
+  order: 1;
+}
+
+.bug-report1 {
+  max-height: 500px;
+  max-width: 50%;
+  order: 2;
+}
+
+.br2 {
+  order: 4;
+  max-width: 50%;
+}
+
+.bug-report2 {
+  max-height: 500px;
+  max-width: 50%;
+  order: 3;
+}
+
+.br3 {
+  order: 5;
   max-width: 50%;
 }
 
