@@ -13,6 +13,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .project-info, .project-info1, .sketch-info {
+    max-width: 50%;
+    font-size: 14px;
+  }
+
   .quality-text, .quality-1, .sketchnotes-img, .br1 {
     order: 1;
     max-width: 100%;
