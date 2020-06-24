@@ -195,6 +195,10 @@ a:hover {
   color: #0c6f65;
 }
 
+.testing-def {
+  margin-bottom: 15px;
+}
+
 .project-info, .project-info1, .sketch-info {
   max-width: 50%;
   font-size: 14px;

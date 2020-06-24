@@ -1,6 +1,10 @@
 /* Media Queries */
 @media screen and (max-width: 800px){
 
+  .bio {
+    max-width: 90%;
+  }
+
   .container-1, .container-2, .container-3, .container-4, .container-5 {
     display: flex;
     flex-flow: row wrap;
@@ -11,6 +15,10 @@
   }
   .quality-text, .quality-1, .sketchnotes-img, .br1 {
     order: 1;
+    max-width: 100%;
+  }
+
+  .sketch-info {
     max-width: 100%;
   }
 
@@ -25,7 +33,7 @@
   }
   .project-info {
     order: 3;
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
