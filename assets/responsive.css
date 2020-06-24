@@ -53,7 +53,7 @@
 
   .project-info {
     order: 6;
-    margin-top: 1em;
+    margin-top: 0;
     margin-bottom: 1em;
     margin-left: 5%;
     margin-right: 5%;
@@ -82,7 +82,41 @@
   }
 }
 
-/* @media screen and (min-width: 801px) and (max-width: 1000px){
+@media screen and (min-width: 576px) and (max-width: 800px){
+  footer {
+    max-width: 100%;
+  }
+
+  .col-sm {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .col-sm li {
+    font-size: 12px;
+  }
+
+  #foot-col {
+    padding-right: 0;
+  }
+}
+
+/* styling for portrait tablet */
+/* @media screen and (min-width: 801px) and (max-width: 1200px) {
+
+  .project-info, .project-info1, .project-info2, .sketch-info {
+    font-size: 14px;
+  }
+
+  .project-info2 {
+    margin-left: 53%;
+    margin-top: -45%;
+  }
+} */
+
+/* @media screen and (min-width: 801px) and (max-width: 1200px){
 
   body {
     background-color: red;
