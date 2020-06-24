@@ -19,7 +19,7 @@
   }
 
   .sketch-info {
-    max-width: 50%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -35,10 +35,8 @@
   }
   .project-info {
     order: 3;
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 1em;
   }
 
