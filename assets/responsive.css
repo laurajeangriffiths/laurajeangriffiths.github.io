@@ -1,6 +1,10 @@
 /* Media Queries */
 @media screen and (max-width: 800px){
 
+  .navbar-nav {
+    text-align: center;
+  }
+
   .bio {
     max-width: 90%;
   }

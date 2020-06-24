@@ -8,10 +8,6 @@ body {
   background-color: #eaf0ef;
 }
 
-.navbar-nav {
-  text-align: center;
-}
-
 container {
   max-width: 95%;
   margin-left: auto;
