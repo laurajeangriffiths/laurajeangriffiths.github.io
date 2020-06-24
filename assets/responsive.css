@@ -33,6 +33,13 @@
     max-width: 100%;
     margin-bottom: 1em;
   }
+
+  .project-info2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .project-info {
     order: 6;
     max-width: 100%;
