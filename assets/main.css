@@ -195,6 +195,23 @@ a:hover {
   color: #0c6f65;
 }
 
+.project-info, .project-info1, .sketch-info {
+  max-width: 50%;
+  font-size: 14px;
+}
+
+.sketch-info ul li {
+  list-style: none;
+}
+
+.sketch-info ul {
+  padding-left: 0;
+}
+
+.testing-def {
+  margin-bottom: 15px;
+}
+
 .container-1 {
   display: flex;
   flex-flow: row wrap;
@@ -215,25 +232,21 @@ a:hover {
 
 .container-3 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row-reverse wrap;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 .sketchnotes-text {
+  order: 2;
   max-width: 40%;
   padding-right: 15px;
 }
 
 .sketchnotes-img {
-max-width: 60%;
-max-height: 60%;
-}
-
-.project-info {
-  /* float: left; */
-  max-width: 40%;
-  margin-left: 62%;
-  margin-top: -140px;
+  order: 1;
+  max-width: 60%;
+  max-height: auto;
 }
 
 .page-nav {
@@ -286,22 +299,9 @@ max-height: 60%;
   order: 5;
 }
 
-.container-3 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.sketchnotes-text {
-  order: 1;
-}
-
-.sketchnotes-img {
-  order: 2;
-}
-
 .container-4 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row-reverse wrap;
 }
 
 .br1 {
@@ -328,6 +328,14 @@ max-height: 60%;
 .br3 {
   order: 5;
   max-width: 50%;
+  padding-right: 15px;
+}
+
+.project-info {
+  order: 6;
+  margin-left: 670px;
+  margin-top: -120px;
+  margin-bottom: 15px;
 }
 
 table, th, td {
