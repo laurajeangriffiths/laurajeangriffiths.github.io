@@ -20,8 +20,8 @@
 
   .sketch-info {
     max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .sketchnotes-img {
@@ -36,8 +36,6 @@
   .project-info {
     order: 3;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 1em;
     margin-bottom: 1em;
   }
