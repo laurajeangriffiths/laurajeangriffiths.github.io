@@ -1,84 +1,65 @@
 /* Media Queries */
 @media screen and (max-width: 800px){
 
-  .bio {
-    max-width: 90%;
-  }
-
   .container-1, .container-2, .container-3, .container-4, .container-5 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .project-info, .project-info1, .project-info2, .sketch-info {
-    max-width: 90%;
-    font-size: 14px;
   }
 
   .quality-text, .quality-1, .sketchnotes-img, .br1 {
     order: 1;
-    max-width: 100%;
-  }
-
-  .sketch-info {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sketchnotes-img {
-    margin-bottom: 1em;
   }
 
   .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1 {
     order: 2;
-    max-width: 100%;
-    margin-bottom: 1em;
   }
 
-  .project-info2 {
+  .risk-table, .br2, .project-info2 {
     order: 3;
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* .clearfix {
-    overflow: auto;
-  } */
-
-  .project-info {
-    order: 6;
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .risk-table, .br2 {
-    order: 3;
-    max-width: 100%;
   }
 
   .risks-list, .bug-report2 {
     order: 4;
-    max-width: 100%;
-    margin-top: 1em;
   }
 
-  .project-info1 {
+  .project-info1, .br3  {
     order: 5;
+  }
+
+  .project-info {
+    margin-left: 5%;
+    margin-right: 5%;
+    order: 6;
+  }
+
+  .bio, .container-1, .container-2, .container-3, .container-4, .container-5, .project-info, .project-info1, .project-info2, .sketch-info {
+    max-width: 90%;
+  }
+
+  .quality-text, .quality-1, .sketchnotes-img, .br1, .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1, .risk-table, .br2, .risks-list, .bug-report2, .br3 {
+    max-width: 100%;
+  }
+
+  .project-info, .project-info1, .project-info2, .sketch-info {
+    font-size: 14px;
+  }
+
+  .container-1, .container-2, .container-3, .container-4, .container-5, .sketch-info, .project-info2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1, .sketchnotes-img, .project-info2, .project-info, .project-info1 {
     margin-bottom: 1em;
   }
 
-  .br3 {
-    order: 5;
-    max-width: 100%;
+  .br3, .risks-list, .bug-report2 {
     margin-top: 1em;
+  }
+
+  .project-info2, .project-info {
+    margin-top: 0;
   }
 }
 
@@ -88,9 +69,9 @@
   }
 
   .col-sm {
-    max-width: 30%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 30%;
     text-align: center;
   }
 
@@ -108,131 +89,67 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .quality-text {
+  .quality-1, .sketchnotes-img, .br1, .quality-text {
     order: 1;
-    max-width: 60%;
   }
 
-  .sketchnotes-img, .br1 {
-    order: 1;
-    max-width: 100%;
-    margin-bottom: 1em;
-  }
-
-  .quality-table {
+  .quality-characteristics, .bug-report1, .quality-table, .sketchnotes-text {
     order: 2;
-    max-width: 40%;
-    margin-bottom: 1em;
   }
 
-  .sketchnotes-text {
-    order: 2;
-    max-width: 100%;
-  }
-
-  .project-info2 {
+  .risk-table, .bug-report2, .project-info2 {
     order: 3;
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .sketch-info, .project-info1 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    font-size: 14px;
-  }
-
-  .quality-1 {
-    order: 1;
-    max-width: 48%;
-    /* margin-right: 10px; */
-  }
-
-  .quality-characteristics, .bug-report1 {
-    order: 2;
-    max-width: 48%;
-  }
-
-  .bug-report1 {
-    margin-top: 0;
-  }
-
-  .risk-table {
-    order: 3;
-    max-width: 48%;
-  }
-
-  .risks-list {
+  .risks-list, .br2 {
     order: 4;
-    max-width: 48%;
-    margin-bottom: 1em;
-  }
-
-  .bug-report2 {
-    order: 3;
-    max-width: 48%;
-  }
-
-  .br2 {
-    order: 4;
-    max-width: 48%;
   }
 
   .br3 {
     order: 5;
-    max-width: 48%;
-    margin-bottom: 1em;
   }
 
   .project-info {
-    order: 6;
-    margin-top: 0;
     margin-right: 0;
-    /* max-width: 100%; */
-    font-size: 14px;
+    order: 6;
   }
-}
-/* styling for portrait tablet */
-/* @media screen and (min-width: 801px) and (max-width: 1200px) {
+
+.container-1, .container-2, .container-3, .container-4, .project-info2, .sketch-info, .project-info1  {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .project-info, .project-info1, .project-info2, .sketch-info {
     font-size: 14px;
   }
 
-  .project-info2 {
-    margin-left: 53%;
-    margin-top: -45%;
-  }
-} */
-
-/* @media screen and (min-width: 801px) and (max-width: 1200px){
-
-  body {
-    background-color: red;
+  .quality-text {
+    max-width: 60%;
   }
 
-  .container-1, .container-2, .container-3, .container-4, .container-5 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+  .sketchnotes-img, .br1, .quality-table, .project-info2, .risks-list, .br3 {
+    margin-bottom: 1em;
   }
 
-  .risks-list {
-    max-width: 50%;
-  }
-
-  .project-info {
+  .container-1, .container-2, .container-3, .container-4, .sketchnotes-img, .br1, .sketchnotes-text {
     max-width: 100%;
   }
-} */
+
+  .quality-table {
+    max-width: 40%;
+  }
+
+.project-info2, .bug-report1, .project-info  {
+    margin-top: 0;
+  }
+
+  .sketch-info, .project-info1 {
+    max-width: 90%;
+  }
+
+  .quality-1, .quality-characteristics, .bug-report1, .risk-table, .risks-list, .bug-report2, .br2, .br3 {
+    max-width: 48%;
+  }
+}
