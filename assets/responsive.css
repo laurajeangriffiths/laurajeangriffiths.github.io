@@ -1,42 +1,45 @@
 @media screen and (max-width: 800px){
 
-  .container-1, .container-2, .container-3, .container-4, .container-5 {
+  .container-1, .container-2, .container-3, .container-4, .container-5, .container-7 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
 
-  .quality-text, .quality-1, .sketchnotes-img, .br1 {
+  .quality-text, .quality-1, .sketchnotes-img, .br1, .TAtext1 {
     order: 1;
   }
 
-  .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1 {
+  .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1, .TA1 {
     order: 2;
   }
 
-  .risk-table, .br2, .project-info2 {
+  .risk-table, .br2, .project-info2, .TA2 {
     order: 3;
   }
 
-  .risks-list, .bug-report2 {
+  .risks-list, .bug-report2, .TAtext2 {
     order: 4;
   }
 
-  .project-info1, .br3  {
+  .project-info1, .br3, .TA3  {
     order: 5;
+  }
+
+  .project-info, .TA4 {
+    order: 6;
   }
 
   .project-info {
     margin-left: 5%;
     margin-right: 5%;
-    order: 6;
   }
 
-  .bio, .container-1, .container-2, .container-3, .container-4, .container-5, .project-info, .project-info1, .project-info2, .sketch-info {
+  .bio, .container-1, .container-2, .container-3, .container-4, .container-5, .project-info, .project-info1, .project-info2, .sketch-info, .container-7 {
     max-width: 90%;
   }
 
-  .quality-text, .quality-1, .sketchnotes-img, .br1, .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1, .risk-table, .br2, .risks-list, .bug-report2, .br3 {
+  .quality-text, .quality-1, .sketchnotes-img, .br1, .quality-table, .quality-characteristics, .sketchnotes-text, .bug-report1, .risk-table, .br2, .risks-list, .bug-report2, .br3, .TA1, .TA2 {
     max-width: 100%;
   }
 
@@ -44,7 +47,7 @@
     font-size: 14px;
   }
 
-  .container-1, .container-2, .container-3, .container-4, .container-5, .sketch-info, .project-info2 {
+  .container-1, .container-2, .container-3, .container-4, .container-5, .sketch-info, .project-info2, .container-7 {
     margin-left: auto;
     margin-right: auto;
   }
@@ -63,7 +66,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 800px){
-  footer {
+  footer, .TA1, .TA2 {
     max-width: 100%;
   }
 
