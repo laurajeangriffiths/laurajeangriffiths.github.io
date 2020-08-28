@@ -1,0 +1,55 @@
+---
+layout: post
+title: Test Automation
+date:   2020-08-27 12:42:47 +0100
+categories: portfolio
+---
+
+<div class="container-7">
+  <div class="TAtext1">
+    <p>After finishing the exploratory testing project, it was time to move on to test automation. My first task was to use
+      Postman to create some basic automated tests. I was already familiar with using Postman to send manual tests to the Restful
+      Booker API, so now it was time to automate!</p>
+
+    <p>I was given a brief introduction to creating tests with Postman, and then assigned homework to automate the following:</p>
+
+    <ul>
+      <li>Create a booking that will then be deleted</li>
+      <li>Post a booking and confirm that the values sent are the same values returned</li>
+      <li>Quickly create 10 bookings</li>
+    </ul>
+
+    <p>Although these tests were fairly simple, I made sure to only ever use one codified oracle per test in order to keep the intent targeted.
+      For example when testing that the returned values matched those sent, I checked each part of the booking separately in it's own test,
+      such as first name, last name, check in date, check out date, rather than the entire response body in one test.</p>
+  </div>
+
+<img src="/img/blog/PostmanAT1.png" class="TA1" alt="Image of Postman automated test to create and delete a booking">
+<img src="/img/blog/PostmanAT2.png" class="TA2" alt="Image of Postman automated test to verify posted and returned values match">
+
+<div class="TAtext2">
+  <h3 class="TAH3">Test Automation Tools</h3>
+  <p>The next step was to begin looking at more complex tests, utilising new software and tools, as well as a new language - Java.
+    To prepare, I completed the Ministry of Testing <a href="https://www.ministryoftesting.com/dojo/courses/introduction-to-java-mike-talks" alt="Link to Ministry of Testing Introduction to Java course">Introduction to Java</a>
+    and <a href="https://www.ministryoftesting.com/dojo/courses/selenium-webdriver-api-introduction-in-java-richard-bradshaw" alt="Ministry of Tesing Selenium WebDriver API Introduction in Java course">Selenium WebDriver API Introduction in Java</a> courses.
+  </p>
+
+  <p>After completing the courses, I was better prepared to tackle my larger project: using Selenium WebDriver to automate testing of the
+    <a href="https://automationintesting.online/#/" alt="Link to the Restful Booker Platform">Restful Booker Platform's</a> login and room creation forms. Everything in the project was completely new to me - Java, IntelliJ, Selenium, JUnit, so it was definitely
+    a challenge, but it was a great feeling to finally see all my tests run! I created just a few tests, but I tried to make these
+    targeted, so that if issues arose, it was easier to identify where the problem occurred. You can find my code <a href="https://github.com/laurajeangriffiths/Test-Automation-Example" alt="Link to test automation code on Github">here</a>.
+  </p>
+</div>
+
+  <img src="/img/blog/RBLogin.png" class="TA3" alt="Image of Restful Booker Platform login form">
+  <img src="/img/blog/RBRooms.png" class="TA4" alt="Image of Restful Booker Platform room booking form">
+</div>
+
+<div class="page-nav">
+  <div class="previous-post">
+    <a href="/portfolio/2020/05/04/bug-reports.html" alt="Return to bug report post"><p> <i class="fas fa-arrow-left"></i> Part 3</p></a>
+  </div>
+  <div class="portfolio-return">
+    <a href="/portfolio/" alt="Return to portfolio"><p><i class="fas fa-home"></i> Return to portfolio</p></a>
+  </div>
+</div>

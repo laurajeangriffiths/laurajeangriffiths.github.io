@@ -22,7 +22,8 @@ categories: portfolio
 
   <p class="br3">This report gives information on a critical defect, as this particular bug explicitly prohibits one of the functions
     stated in the user stories - the ability to filter bookings by dates.
-    Providing the exact dates of a stored booking returns either incorrect, or no results at all.
+    Providing the exact dates of a stored booking returns either incorrect, or no results at all. I expected this to work,
+    so the fact that it doesn't highlights that there is an issue here.
     When I discovered this issue during exploratory testing, I deepened my testing to try to discover the behaviour of the API when
     provided only a check in date, only a check out date, or both a check in and check out date. I found that searching via a check
     in date returned bookings with check in dates greater than, but not including the date specified. Searching via check out date

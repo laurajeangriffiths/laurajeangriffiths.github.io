@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
-h1, h2, .bio, .nav-item, .blog, .portfolio-return {
+h1, h2, .bio, .nav-item, .blog, .portfolio-return, .blog-courses, .TAH3 {
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px;
 }
 
-container, .card-columns {
+container, .card-columns, .blog-courses {
   margin-left: auto;
   margin-right: auto;
   max-width: 95%;
@@ -55,6 +55,10 @@ container, .card-columns {
 
 .bio {
   max-width: 65%;
+}
+
+.TA1, .TA2 {
+  max-width: 80%;
 }
 
 div.footer {
@@ -98,6 +102,10 @@ a, #foot-col a, #foot-col i, .display-4, .navbar-brand {
   display: inline-block;
 }
 
+.blog-courses > ul > a {
+  list-style: none;
+}
+
 .page-title {
   margin-top: 20px;
 }
@@ -114,21 +122,21 @@ img {
   margin: auto;
 }
 
-.hello, .profile, .blog-image, .blog-welcome {
+.hello, .profile, .blog-image, .blog-welcome, .blog-bookstack {
   height: 200px;
   width: 200px;
 }
 
-.hello, .profile, .blog-image {
+.hello, .profile, .blog-image, .blog-bookstack {
   border: 3px solid #128175;
   border-radius: 50%;
 }
 
-.blog-welcome, .blog-image {
+.blog-welcome, .blog-image, .blog-bookstack {
   display: block;
 }
 
-.blog-image {
+.blog-image, .blog-bookstack {
   margin-bottom: 25px;
 }
 
@@ -159,7 +167,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.testing-def, .project-info2, .container-3, .bug-report1, .bug-report2, .project-info {
+.testing-def, .project-info2, .container-3, .bug-report1, .bug-report2, .project-info, .TA1, .TA2, .TA3, .TA4 {
   margin-bottom: 15px;
 }
 
@@ -175,16 +183,20 @@ a:hover {
   padding-left: 0;
 }
 
-.container-1, .container-3, .page-nav, .container-2, .container-4 {
+.container-1, .container-3, .page-nav, .container-2, .container-4, .container-6, .container-7 {
   display: flex;
 }
 
-.container-1, .container-2 {
+.container-1, .container-2, .container-6, .container-7 {
   flex-flow: row wrap;
 }
 
 .quality-text, .quality-table, .quality-1, .quality-characteristics, .risk-table, .risks-list, .bug-report1, .br2, .bug-report2, .br3 {
   max-width: 50%;
+}
+
+.TA1, .TA2 {
+  max-width: 49%;
 }
 
 .quality-text, .sketchnotes-text, .br3 {
@@ -200,11 +212,11 @@ a:hover {
   justify-content: center;
 }
 
-.sketchnotes-text, .portfolio-return, .quality-characteristics, .bug-report1 {
+.sketchnotes-text, .portfolio-return, .quality-characteristics, .bug-report1, .bloglock1, .TA1 {
   order: 2;
 }
 
-.sketchnotes-img, .previous-post, .quality-1, .br1 {
+.sketchnotes-img, .previous-post, .quality-1, .br1, .blog-bookstack, .TAtext1 {
   order: 1;
 }
 
@@ -217,7 +229,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.next-post, .risk-table, .bug-report2 {
+.next-post, .risk-table, .bug-report2, .blog-courses, .TA2 {
   order: 3;
 }
 
@@ -225,11 +237,11 @@ a:hover {
   justify-content: space-around;
 }
 
-.risks-list, .br2 {
+.risks-list, .br2, .TAtext2 {
   order: 4;
 }
 
-.project-info1, .br3 {
+.project-info1, .br3, .TA3 {
   order: 5;
 }
 
@@ -241,10 +253,13 @@ a:hover {
   max-height: 500px;
 }
 
+.project-info, .TA4 {
+  order: 6;
+}
+
 .project-info {
   margin-right: 100px;
   margin-top: -120px;
-  order: 6;
 }
 
 table, th, td {
